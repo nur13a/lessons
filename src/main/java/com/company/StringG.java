@@ -1,4 +1,7 @@
 package com.company;
 
-public class StringG {
+import java.util.List;
+
+public interface StringG {
+    void printString(List<String>list);
 }
