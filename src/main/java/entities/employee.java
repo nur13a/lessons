@@ -43,6 +43,15 @@ public class employee {
         public void setAge(Integer age) {
                 this.age = age;
         }
+
+        @Override
+        public String toString() {
+                return "employee{" +
+                        "id=" + id +
+                        ", name='" + name + '\'' +
+                        ", age=" + age +
+                        '}';
+        }
 }
 
 
